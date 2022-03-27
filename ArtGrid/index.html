@@ -1,0 +1,74 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <link rel="stylesheet" href="/Users/ula/Desktop/ArtGrid/Resources/style.css" type="text/css">
+        <title>Art</title>
+    </head>
+    
+        <body>
+            <div id="hamburger" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a>Home</a>
+                <a>My Story</a>
+                <a>Benefits</a>
+                <a>Events</a>
+                <a>Contact</a>
+                <img alt="logo" src="/Users/ula/Desktop/ArtGrid/Resources/IMG/NicePng_art-png_115014.png">
+            </div>
+            <span style="font-size: 30px; cursor: pointer"onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav(){
+                        document.getElementById('hamburger').style.display="block";
+                    }
+                    function closeNav(){
+                        document.getElementById("hamburger").style.display="none";
+                    }
+                </script>  
+                <div class="main">
+                    <h1>Art</h1>
+                        <!-- Main Photo -->
+                        <div class="content">
+                            <img src="/Users/ula/Desktop/ArtGrid/Resources/IMG/jack-finnigan-CR9EGFPVNoU-unsplash.jpg" alt="museum" style="width: 100%">
+                        </div>
+                    <h3>Experience</h3>    
+                </div>
+                <!--Table grid smaller 4 photos-->
+                <div class="row">
+                    <div class="column">
+                        <div class="content">
+                            <img src="/Users/ula/Desktop/ArtGrid/Resources/IMG/birmingham-museums-trust-wKlHsooRVbg-unsplash.jpg" 
+                            alt="girl on the grass" style="width: 100%; height: 50%">
+                            <h3>Watercolors</h3>
+                        </div>    
+                    </div>        
+                    <div class="column">
+                        <div class="content">
+                            <img src="/Users/ula/Desktop/ArtGrid/Resources/IMG/allyssa-olaivar-C_dSxETlS_4-unsplash.jpg" 
+                            alt="sculpture" style="width: 100%; height: 50%">
+                            <h3>Sculpture</h3>
+                        </div>    
+                    </div>        
+                    <div class="column">
+                        <div class="content">
+                            <img src="/Users/ula/Desktop/ArtGrid/Resources/IMG/birmingham-museums-trust-wvD0zZnRbcw-unsplash.jpg" 
+                            alt="painting" style="width: 100%; height: 50%">
+                            <h3>Oil Paintings</h3> 
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="/Users/ula/Desktop/ArtGrid/Resources/IMG/mueen-agherdien-bW6JWZJWwmg-unsplash.jpg" 
+                            alt="building" style="width: 100%; height: 50%">
+                            <h3>Architecture</h3> 
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="/Users/ula/Desktop/ArtGrid/Resources/IMG/Now Then.jpg"
+                        alt="mural" style="width: 100%">
+                        <h3>Now & Then</h3>    
+                    </div>
+                </div>
+
+
+        </body>
+</html>        
